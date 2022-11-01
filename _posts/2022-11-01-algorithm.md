@@ -1,5 +1,6 @@
 ---
 title: 백준 2583 영역 구하기(Java)
+pin: true
 date: 2022-11-01 10:17:11 +0900
 categories: [algorithm, Baekjoon]
 tags: [algorithm, BOJ, Java, DFS] # TAG names should always be lowercase
