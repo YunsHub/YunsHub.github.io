@@ -1,0 +1,112 @@
+---
+title: 백준 2636 치즈(Java)
+pin: true
+date: 2022-11-02 11:10:11 +0900
+categories: [algorithm, Baekjoon]
+tags: [algorithm, BOJ, Java, DFS, BFS] # TAG names should always be lowercase
+---
+>백준 2636 치즈
+>> 문제 출처 : <https://www.acmicpc.net/problem/2636>
+
+
+## 문제
+---
+![백준](/assets/img/BOJ/2636.PNG)
+![백준](/assets/img/BOJ/2636_2.PNG)
+
+## 문제 풀이
+---
+- 가장자리는 치즈가 없기 때문에 ```(0,0)```에서 탐색을 시작한다.
+- 치즈의 개수가 사라질 때까지 무한반복으로 ```DFS``` 탐색을 한다.
+- 0(공기) 위주로 탐색하여 1(치즈)를 만나면 0으로 만들고 DFS를 종료한다.
+
+## 코드
+---
+```Java
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+public class Main {
+	static int N, M;
+	static int[][] map;
+	static boolean[][] visited;
+	static int[] dx = {1, 0, -1, 0};
+	static int[] dy = {0, 1, 0, -1};
+	public static int time, count;
+	static boolean check;
+	
+	public static void main(String[] args) throws Exception {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		N = Integer.parseInt(st.nextToken());	
+		M = Integer.parseInt(st.nextToken());	
+		
+		map = new int[N][M];
+		
+		count = 0;
+		time = 0;
+		
+		for(int i = 0 ; i < N; i++) {
+			st = new StringTokenizer(br.readLine());
+			for(int j = 0; j < M; j++) {
+				map[i][j] = Integer.parseInt(st.nextToken());
+			}
+		}
+				
+		while(true) {
+			visited = new boolean[N][M];
+			count = 0;
+			time++;
+			dfs(0, 0);
+			check = true;
+			for(int i = 0; i < N; i++) {
+				for(int j = 0; j < M; j++) {
+					if(map[i][j] == 1) {
+						check = false;
+						break;
+					}
+				}
+				if(!check) {
+					break;
+				}
+			}
+			
+			if(check) {
+				System.out.println(time);
+				System.out.println(count);
+				return;		
+			}	
+		}
+	}
+
+	
+	public static void dfs(int x,int y) {
+		visited[x][y] = true;
+		
+		for(int i = 0; i < 4; i++) {
+			int nx = x + dx[i];
+			int ny = y + dy[i];
+			
+			if(idxCheck(nx, ny) && !visited[nx][ny] && map[nx][ny] == 1) {
+				count++;
+				map[nx][ny] = 0;
+				visited[nx][ny] = true;
+			}
+			
+			if(idxCheck(nx, ny) && !visited[nx][ny] && map[nx][ny] == 0) {
+				visited[nx][ny] = true;
+				dfs(nx, ny);
+			}
+		}
+	}
+	
+	private static boolean idxCheck(int x, int y) {
+        return x >= 0 && x < N && y >= 0 && y < M;
+    } 
+}
+```
+
+## 결과
+---
+![백준](/assets/img/BOJ/2636_result.PNG)
