@@ -31,7 +31,7 @@ Github Blog는 Github Page, Jekyll, Ruby가 필수입니다.
 ### **Ruby 설치**  
 [Ruby](https://rubyinstaller.org/downloads/)에 접속하여 ```Ruby+Devkit(x64)```를 설치합니다. -> **윈도우 전용**  
 별도의 수정없이 설치  
-![이미지](/assets/img/Github%20Blog/Github_Blog_5.PNG)
+![이미지](/assets/img/Github%20Blog/Github_Blog_5.jpg)
 
 Ruby 첫 실행화면에서 ```1 + enter``` ```2 + enter``` ```3 + enter```해서 설치  
 ![이미지](/assets/img/Github%20Blog/Github_Blog_6.jpg)
