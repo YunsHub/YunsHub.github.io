@@ -1,10 +1,12 @@
 ---
 title: 깃허브 블로그 테마 적용
-date: 2022-11-03 02:18:11 +0900
+date: 2022-11-03 02:18:15 +0900
 categories: [Github.io, Github Blog]
 tags: [github.io, blog, jekyll, ruby] # TAG names should always be lowercase
 ---
 >깃허브(Github) 블로그 테마 적용
+
+![이미지](/assets/img/Github%20Blog/Github_Blog_1.jpg)
 
 ## 깃허브(Github) 블로그 테마 적용
 ---
@@ -25,11 +27,11 @@ Github Blog는 Github Page, Jekyll, Ruby가 필수입니다.
 ### **Ruby 설치**  
 [Ruby](https://rubyinstaller.org/downloads/)에 접속하여 ```Ruby+Devkit(x64)```를 설치합니다. -> **윈도우 전용**  
 별도의 수정없이 설치  
-
 ![이미지](/assets/img/Github%20Blog/Github_Blog_5.PNG)
-Ruby 첫 실행화면에서 ```1 + enter``` ```2 + enter``` ```3 + enter```해서 설치  
 
+Ruby 첫 실행화면에서 ```1 + enter``` ```2 + enter``` ```3 + enter```해서 설치  
 ![이미지](/assets/img/Github%20Blog/Github_Blog_6.jpg)
+
 >루비 설치 확인 : ```ruby -v```  
 >실행 결과 : "ruby 2.6.10p210 (2022-04-12 revision 67958) [x64-mingw32]"  
 
