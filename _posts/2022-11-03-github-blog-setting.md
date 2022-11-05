@@ -1,6 +1,6 @@
 ---
 title: 깃허브 블로그 기본 설정
-date: 2022-11-03 02:18:11 +0900
+date: 2022-11-03 03:18:20 +0900
 categories: [Github.io, Github Blog]
 tags: [github blog, blog, jekyll, ruby, chirpy] # TAG names should always be lowercase
 ---
