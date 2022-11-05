@@ -7,6 +7,10 @@ tags: [github.io, blog, jekyll, ruby] # TAG names should always be lowercase
 >깃허브(Github) 블로그 테마 적용
 
 ![이미지](/assets/img/Github%20Blog/Github_Blog_1.jpg)
+![이미지](/assets/img/Github%20Blog/Github_Blog_5.PNG)
+![이미지](/assets/img/Github%20Blog/Github_Blog_7.jpg)
+![이미지](/assets/img/Github%20Blog/Github_Blog_8.jpg)
+
 
 ## 깃허브(Github) 블로그 테마 적용
 ---
