@@ -2,7 +2,7 @@
 title: 깃허브 블로그 테마 적용
 date: 2022-11-03 02:18:15 +0900
 categories: [Github.io, Github Blog]
-tags: [github.io, blog, jekyll, ruby] # TAG names should always be lowercase
+tags: [github blog, blog, jekyll, ruby, chirpy] # TAG names should always be lowercase
 ---
 >깃허브(Github) 블로그 테마 적용
 

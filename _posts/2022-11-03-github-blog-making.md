@@ -2,7 +2,7 @@
 title: 깃허브 블로그 만들기
 date: 2022-11-03 01:18:11 +0900
 categories: [Github.io, Github Blog]
-tags: [github.io, blog] # TAG names should always be lowercase
+tags: [github blog, blog] # TAG names should always be lowercase
 ---
 >깃허브(Github) 블로그 만들기
 
