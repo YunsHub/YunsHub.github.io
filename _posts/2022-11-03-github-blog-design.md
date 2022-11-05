@@ -6,12 +6,6 @@ tags: [github.io, blog, jekyll, ruby] # TAG names should always be lowercase
 ---
 >깃허브(Github) 블로그 테마 적용
 
-![이미지](/assets/img/Github%20Blog/Github_Blog_1.jpg)
-![이미지](/assets/img/Github%20Blog/Github_Blog_5.PNG)
-![이미지](/assets/img/Github%20Blog/Github_Blog_7.jpg)
-![이미지](/assets/img/Github%20Blog/Github_Blog_8.jpg)
-
-
 ## 깃허브(Github) 블로그 테마 적용
 ---
 깃허브 페이지를 성공적으로 생성하였으면 이번에는 블로그를 어떻게 꾸미는지 알아봅시다.
